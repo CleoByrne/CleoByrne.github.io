@@ -64,7 +64,8 @@ img{
 .job-area.offwhite {
   background: #2e2e3096; }
   
-.single-job {
+.single-job 
+{
   background-color: rgba(245, 240, 240, 0.774);
   padding: 40px 30px;
   border-radius: 10px;
@@ -72,7 +73,19 @@ img{
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s; }
+  transition: all 0.3s ease 0s; 
+}
+.employmentDate
+{
+  padding: .5em;
+  background-color: white;
+  border-radius:.5em;
+  color: black;
+  width:50%;
+  text-align: center;
+  font-weight:bold;
+}
+
   @media (max-width: 576px) {
     .single-job .top-sec {
       -webkit-box-direction: normal;
@@ -108,11 +121,9 @@ img{
     .single-job .primary-btn:before {
       color: #222222; }
   .single-job:hover {
-    background: #90acd1;
+    background: #686b6e;
     cursor: pointer;
     color: #fff; }
-    .single-job:hover .top-left h4 {
-      color: #fff; }
 
 /**/
 #contactMe{
@@ -459,5 +470,47 @@ textarea.input100 {
   background-color: white;
   padding:2em;
   border-radius: .5em;
+}
+
+
+.interestItem 
+{
+  padding: 2em;
+  margin-right:auto;
+  margin-left:auto;
+  width:80%;
+  border-radius: 10px;
+  transition: all 300ms linear 0s;
+  background: #fff;
+  min-height: 350px;
+}
+
+.interestItem i 
+{
+  font-weight: 900;
+  margin-bottom: 2em;;
+  display: block; 
+  height:1em;
+}
+.interestItem i:before 
+{
+  margin-left: 0px;
+  font-size: 60px;
+  color: #e1e1e1;
+  line-height: 60px; 
+}
+  
+.interestItem:hover 
+{
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.342);
+  border-color: #fff;
+  background: #fff; 
+}
+.interestItem:hover i:before 
+{
+  padding:.20em;
+  border-radius:100%;
+  margin-bottom: .5em;
+  background: linear-gradient(to right, #8490ff 0%, #62bdfc 80%);
 }
 

@@ -8,12 +8,13 @@
     
     <link rel="stylesheet" type ="text/css" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="font-awesome.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.min.css">
-    
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"> 
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <style>
         body {
             position: relative; 
@@ -37,17 +38,17 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>                        
               </button>
-              <a class="navbar-brand" href="#">Cleo Byrne</a>
+              <a class="navbar-brand scroll" href="#">Cleo Byrne</a>
             </div>
             <div>
               <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                  <li><a href="#aboutMe">About Me</a></li>
-                  <li><a href="#education">Education</a></li>
-                  <li><a href="#projects">Projects</a></li>
-                  <li><a href="#workExperience">Work Experience</a></li>
-                  <li><a href="#interests">Interests and Achievments</a></li>                  
-                  <li><a href="#contactMe">Contact Me</a></li>
+                <ul class="nav navbar-nav ml-auto">
+                  <li class="nav-item"><a class="nav-link scroll" href="#aboutMe">About Me</a></li>
+                  <li class="nav-item"><a class="nav-link scroll" href="#education">Education</a></li>
+                  <li class="nav-item"><a class="nav-link scroll" href="#projects">Projects</a></li>
+                  <li class="nav-item"><a class="nav-link scroll" href="#workExperience">Work Experience</a></li>
+                  <li class="nav-item"><a class="nav-link scroll" href="#interests">Interests and Achievments</a></li>                  
+                  <li class="nav-item"><a class="nav-link scroll" href="#contactMe">Contact Me</a></li>
                   
                 </ul>
               </div>
@@ -109,10 +110,14 @@
             
           </div>
         </div>
+
+
         <div id="education" class="container-fluid">
           <div class="educationContainer">
             <h1>Education</h1>
-            <p>College - Technological University Dublin - Tallaght Campus</p>
+            <h5><strong>Technological University Dublin - Tallaght Campus</strong></h5>
+            <h5>BSC in Computer Science with Software Development</h5>
+            <h6>September 2016 - May 2020</h6>
             <ul class="nav nav-pills">
               <li><a data-toggle="pill" style="border-radius: 3em;" href="#3rdYear">3rd Year GPA 3.42</a></li>
               <li><a data-toggle="pill" style="border-radius: 3em;" href="#2ndYear">2nd Year GPA 3.63</a></li>
@@ -302,18 +307,16 @@
                         <p>One Waterside, Citywest Business Campus, Kingswood Ave, Dublin 24</p>
                       </div>
                       <div class="top-right">
-                        <a href="#" class="primary-btn" data-text="Jan '19 to Aug '19">
-                          <span>J</span><span>a</span><span>n</span>
-                          <span>'</span><span>1</span><span>9</span>
-                          <span>t</span><span>o</span>
-                          <span>A</span><span>u</span><span>g</span><span>'</span><span>1</span><span>9</span>
-                        </a>
+                        <h6 class="employmentDate" > Employment Date: Jan '19 to Aug '19</h6>
                       </div>
                     </div>
                     <div class="bottom-sec wow fadeIn" data-wow-duration="2s">
                       <ul>
-                        <li>Worked on and designed applications with different technologies such s Angular, vue and react.</li>
-                        <li>Worked in an agile working enviorment where</li>
+                        <li>Worked with a team to create internal applications.</li>
+                        <li>Worked on and designed applications with different technologies such as Angular 7, Vue and React.</li>
+                        <li>Worked in an agile working enviorment where I took part in daily standups, retrospectves.</li>
+                        <li>Took part in running coder dojo workshops for a local primary school</li>
+                        <li>Took part in and helped pilot the women in technology mentoring program within the company.</li>
                         
                       </ul>
                     </div>
@@ -324,17 +327,13 @@
                   <div class="single-job">
                     <div class="top-sec d-flex justify-content-between">
                       <div class="top-left">
-                        <img src="karneyCurranImg.png" class="card-img" alt="Karney Curran & Co">
                         <h4>Karney Curran</h4>
+                        <img src="karneyCurranImg.png" class="card-img" alt="Karney Curran & Co">
+                        <h4>General Clerk</h4>
                         <p>41 Central Chambers, Dame Court, Dublin 2</p>
                       </div>
                       <div class="top-right">
-                        <a href="#" class="primary-btn" data-text="Jun '16 to Jul '16">
-                          <span>J</span><span>u</span><span>n</span>
-                          <span>'</span><span>1</span><span>6</span>
-                          <span>t</span><span>o</span>
-                          <span>J</span><span>u</span><span>l</span><span>'</span><span>1</span><span>6</span>
-                        </a>
+                        <h6 class="employmentDate" > Employment Date: Jun '16 to Jul '16</h6>
                       </div>
                     </div>
                     <div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
@@ -353,18 +352,12 @@
                     <div class="top-sec d-flex justify-content-between">
                       <div class="top-left">
                         <h4>Penneys</h4>
-                        <h6>Retail assistance</h6>
-                        <p>Unit 21 Level 2, Dundrum Town Centre, Sandyford Rd, Dundrum, Dublin</p>
                         <img src="penneysImg.png" class="card-img" alt="penneys">
-             
+                        <h4>Retail Assistance</h4>
+                        <p>Unit 21 Level 2, Dundrum Town Centre, Sandyford Rd, Dundrum, Dublin</p>
                       </div>
                       <div class="top-right">
-                        <a href="#" class="primary-btn" data-text="Oct '19 to Present">
-                          <span>OJ</span><span>c</span><span>t</span>
-                          <span>'</span><span>1</span><span>2</span>
-                          <span>t</span><span>o</span>
-                          <span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
-                        </a>
+                          <h6 class="employmentDate" > Employment Date: Oct '19 to Present</h6>
                       </div>
                     </div>
                     <div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
@@ -383,9 +376,45 @@
 
         <div id="interests" class="container-fluid">
           <div class=interestContainer>
-            
           <h3>Interests and Achievements</h3>
-          
+        		<div class="row">
+        			<div class="col-lg-4 col-md-6 col-sm-6">
+        				<div class="interestItem">
+                  <i class="fas fa-running" style="text-align:center"></i>
+                  <br>
+                  <br>
+        					<h4>Sports</h4>
+                  <ul>
+                    <li>Black Belt in Kickboxing. Have taught several classes for both adults and children.</li>
+                    <li>School Sports Captain in Secondary School (2015/16) this involved  mentoring younger students, representing the student body both internally and externally.</li>
+                  </ul>
+                </div>
+        			</div>
+        			<div class="col-lg-4 col-md-6 col-sm-6">
+        				<div class="interestItem">
+                  <i class="fas fa-medal" style="text-align:center"></i>
+                  <br>
+                  <br>
+        					<h4>Achievments</h4>
+                  <ul>
+                    <li>Gaisce Presidents Award both Bronze and Silver medals. This involved a combined 234 hours of physical, community involvement and learning new skills.</li>
+                    <li>Clean full drivers license</li>
+                  </ul>
+                </div>
+        			</div>
+        			<div class="col-lg-4 col-md-6 col-sm-6">
+        				<div class="interestItem">
+                  <i class="fas fa-laptop" style="text-align:center"></i>
+                  <br>
+                  <br>
+        					<h4>Technical</h4>
+                  <ul>
+                    <li>Helped run coder dojo workshops for young children.</li>
+                    <li>Participated in a Google HashCode competition.</li>
+                  </ul>
+                </div>
+        			</div>
+        		</div>
         </div>
         </div>
 
@@ -434,6 +463,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+   
 </body>
 </html>
