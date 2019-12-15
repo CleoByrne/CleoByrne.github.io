@@ -63,15 +63,12 @@ body{
 .job-area.offwhite {
   background: #2e2e3096; }
   
-.single-job 
+.workItem 
 {
   background-color: rgba(245, 240, 240, 0.774);
   padding: 40px 30px;
   border-radius: 10px;
   margin-bottom: 30px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; 
 }
 .employmentDate
@@ -86,50 +83,39 @@ body{
 }
 
   @media (max-width: 576px) {
-    .single-job .top-sec {
-      -webkit-box-direction: normal;
-      -webkit-box-orient: vertical;
-      -webkit-flex-direction: column;
-      -moz-flex-direction: column;
-      -ms-flex-direction: column;
+    .workItem .top-sec {
       flex-direction: column; } }
-  .single-job .top-left h4 {
+  .workItem .top-left h4 {
     color: #000;
     font-size: 21px;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     font-weight: 700; }
     @media (max-width: 1199px) {
-      .single-job .top-left h4 {
+      .workItem .top-left h4 {
         font-size: 18px; } }
   @media (max-width: 576px) {
-    .single-job .bottom-sec {
+    .workItem .bottom-sec {
       margin-top: 30px; } }
-  .single-job .primary-btn {
+  .workItem .primary-btn {
     padding: 0 28px;
     background: #fff;
     color: #222222;
     border: 1px solid #90acd1; }
     @media (max-width: 1199px) {
-      .single-job .primary-btn {
+      .workItem .primary-btn {
         padding: 0 15px; } }
-    .single-job .primary-btn span {
+    .workItem .primary-btn span {
       color: #222222; }
-    .single-job .primary-btn:before {
+    .workItem .primary-btn:before {
       color: #222222; }
-  .single-job:hover {
+  .workItem:hover {
     background: #686b6e;
     cursor: pointer;
     color: #fff; }
 
-/**/
 #contactMe{
   padding: 2em;
   width:100%;
-  /*background: url('background1.jpg') no-repeat;
-  background-size: cover;*/
 }
 .contactContainer{
   border-radius: 2%;
@@ -140,7 +126,7 @@ body{
   background-color: white;
 }
    
-.wrap-contact100 {
+.wrap-contactMe {
   width: 1170px;
   background: #fff;
   border-radius: 10px;
@@ -149,26 +135,20 @@ body{
   display: none;
 }
 
-.show-wrap-contact100 {
+.show-wrap-contactMe {
   visibility: visible;
   opacity: 1;
 }
 
 
-/*==================================================================
-[ Form ]*/
 
-.contact100-form {
+.contactMe-form {
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.contact100-form-title {
+.contactMe-form-title {
   display: block;
   width: 100%;
   font-family: Poppins-Bold;
@@ -180,29 +160,12 @@ body{
 }
 
 
-.contact100-more {
-  font-family: Poppins-Regular;
-  font-size: 14px;
-  color: #999999;
-  line-height: 1.5;
-}
 
-.contact100-more-highlight {
-  color: #ff4b5a;
-}
-
-/*==================================================================
-[ Button hide form ]*/
-
-.contact100-btn-hide {
+.contactMe-btn-hide {
   color: #333333;
   font-size: 14px;
 
   position: absolute;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,14 +176,10 @@ body{
   border-radius: 50%;
   top: -15px;
   right: -15px;
-
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
 
-.contact100-btn-hide:hover {
+.contactMe-btn-hide:hover {
   background-color: #333333;
   color: #fff;
 }
@@ -229,16 +188,12 @@ body{
 /*==================================================================
 [ Button show form ]*/
 
-.contact100-btn-show {
+.contactMe-btn-show {
   color: #fff;
   font-size: 39px;
 
   position: fixed;
   z-index: -1;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,31 +202,23 @@ body{
   border-radius: 50%;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
-.contact100-btn-show::before {
+.contactMe-btn-show::before {
   content: "";
   display: block;
   position: absolute;
   z-index: -2;
   width: 100%;
   height: 100%;
-  background-color: #ff4b5a;
+  background-color: #8490ff;
   border-radius: 50%;
 
   top: 0;
   left: 0;
   
-  box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -moz-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -o-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -ms-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+  box-shadow: 0 10px 30px 0px #8490ff;
 
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -285,7 +232,7 @@ body{
 
 @keyframes beatbtn {
   0% {
-    background-color: rgba(255, 75, 90, 1);
+    background-color: #8490ffd8;
     transform-origin: center;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -295,7 +242,7 @@ body{
   }
 
   50% {
-    background-color: rgba(255, 75, 90, 0.8);
+    background-color: #8490ffd8;
     transform-origin: center;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
@@ -314,7 +261,6 @@ body{
 
 
 .label-input100 {
-  font-family: Poppins-Regular;
   font-size: 15px;
   color: #999999;
   line-height: 1.5;
@@ -325,7 +271,6 @@ body{
   display: block;
   width: 100%;
   background: transparent;
-  font-family: Poppins-SemiBold;
   font-size: 18px;
   color: #555555;
   line-height: 1.2;
@@ -356,7 +301,7 @@ body{
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 
-  background: #ff4b5a;
+  background: #8490ffd8;
 }
 input.input100 {
   height: 40px;
@@ -381,29 +326,21 @@ textarea.input100 {
 
 /*------------------------------------------------------------------
 [ Button ]*/
-.container-contact100-form-btn {
+.container-contactMe-form-btn {
   width: 100%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
   margin-top: -25px;
 }
 
-.contact100-form-btn {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
+.contactMe-form-btn {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 20px;
   min-width: 160px;
   height: 50px;
-  background-color: #ff4b5a;
+  background-color: #3b49c0ef;
   border-radius: 25px;
 
   font-family: Poppins-Medium;
@@ -411,39 +348,21 @@ textarea.input100 {
   color: #fff;
   line-height: 1.2;
 
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
   transition: all 0.4s;
 
   box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -moz-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -o-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
-  -ms-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
 }
 
-.contact100-form-btn i {
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
+.contactMe-form-btn i {
   transition: all 0.4s;
 }
 
-.contact100-form-btn:hover {
+.contactMe-form-btn:hover {
   background-color: #333333;
   box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
-  -moz-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
-  -webkit-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
-  -o-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
-  -ms-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
 }
 
-.contact100-form-btn:hover i {
-  -webkit-transform: translateX(10px);
-  -moz-transform: translateX(10px);
-  -ms-transform: translateX(10px);
-  -o-transform: translateX(10px);
+.contactMe-form-btn:hover i {
   transform: translateX(10px);
 }
 .aboutMeContainer
