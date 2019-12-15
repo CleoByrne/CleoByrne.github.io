@@ -12,3 +12,11 @@ function openCity(evt, cityName) {
     evt.currentTarget.className += " active";
   }
   
+  function showProjectInfo() {
+    var x = document.getElementById("secondYearProInfo");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
