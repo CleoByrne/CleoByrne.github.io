@@ -46,23 +46,9 @@ body{
     max-height: 100%; 
     border-radius: 25%;
 }
-.basic_info{
-  text-decoration: none;
-  min-height: 5em;;
+.list-group{
+  border-radius: .5em;
 }
-.basic_info li a {
-  position: relative;
-  padding-left: 40px;
-  font-size: 16px;
-  color: #777777; }
-
-.basic_info li a i {
-    position: absolute;
-    left: 0px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
-    color: #766dff; }
 
 /* Education */
 
@@ -549,5 +535,14 @@ textarea.input100 {
   border-radius:100%;
   margin-bottom: .5em;
   background: linear-gradient(to right, #8490ff 0%, #62bdfc 80%);
+}
+
+.detailsContainer{
+  width:80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(255, 255, 255, 0.822);
+  padding:2em;
+  border-radius: .5em;
 }
 

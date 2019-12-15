@@ -8,6 +8,8 @@
     
     <link rel="stylesheet" type ="text/css" href="styles.css">
     <script src="main.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css"> 
@@ -15,7 +17,6 @@
     <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <style>
         body {
             position: relative; 
@@ -42,7 +43,7 @@
               <a class="navbar-brand scroll" href="#">Cleo Byrne</a>
             </div>
             <div>
-              <div class="collapse navbar-collapse" id="myNavbar">
+              <div class="collapse navbar-collapse" style="float:right;" id="myNavbar">
                 <ul class="nav navbar-nav ml-auto">
                   <li class="nav-item"><a class="nav-link scroll" href="#aboutMe">About Me</a></li>
                   <li class="nav-item"><a class="nav-link scroll" href="#education">Education</a></li>
@@ -66,26 +67,27 @@
               </div>
               <div class="col-xs-6">
                 <div class="card-body">
-                  <h2 class="card-title">Cleo Byrne</h2>
-                  <h5 class="card-text"></h5>
-                  <p class="card-text">
-                    <ul class="list basic_info">
-                      <li><i class="lnr lnr-calendar-full"></i> 31st March, 1998</li>
-                      <li><i class="lnr lnr-phone-handset"></i> 085 7454 918</li>
-                      <li><i class="lnr lnr-envelope"></i> byrnecleo@gmail.com</a></li>
-                      <li><i class="lnr lnr-home"></i> 27 FItzgerald Park, Mounttown, Dun Loaghaire</a></li>
-                    </ul>
-                      
-                      <i class="fa fa-linkedin-square" style="font-size:48px;color:rgb(14, 14, 102)"></i>
-                      <i class="fa fa-github" style="font-size:48px;color:rgb(14, 14, 102)"></i>
-                      <i class="fa fa-envelope" aria-hidden="true"></i>
-                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactMeModal">
-                        Contact me
+                  <h2 class="card-title" style="text-align: center; padding: .5em;"><strong>Cleo Byrne</strong></h2>
+                  <h5 class="card-text"style="text-align: center; "><strong>Software Engineer</strong></h5>
+                  <p class="card-text" style="text-align: center; align-content: center; ">
+                      <div class="list-group" style="width:60%; margin-left:auto; margin-right:auto;">
+                          <a class="list-group-item list-group-item-action list-group-item-light">
+                              <i class="lnr lnr-calendar-full"></i> 31st March, 1998
+                          </a>
+                          <a href="tel:0857454918" class="list-group-item list-group-item-action list-group-item-light"><i class="lnr lnr-phone-handset"></i> 085 7454 918</a>
+                          <a  href="mailto:byrnecleo@gmail.com" class="list-group-item list-group-item-action list-group-item-light" ><i class="lnr lnr-envelope"></i> byrnecleo@gmail.com</a>
+                          <a  class="list-group-item list-group-item-action list-group-item-light"><i class="lnr lnr-home"></i> 27 FItzgerald Park, Mounttown, Dun Loaghaire</a>
+                          </div>
+                         
+                      <div style="float:right">
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactMeModal">
+                        <i class="fa fa-envelope" aria-hidden="true"></i> Contact me
                       </button>
+                      <i class="fa fa-linkedin-square"href="" style="font-size:30px;"></i>
+                      <i class="fa fa-github" style="font-size:30px;"></i>
+                      </div>
+                    </p>
+                    
                       
                       <div class="modal fade" id="contactMeModal" tabindex="-1" role="dialog" aria-labelledby="contactMeModal" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -122,7 +124,7 @@
                               </form>
                             </div>
                             <div class="modal-footer">
-                              <button class="contact100-form-btn">
+                              <button class="contact100-form-btn"  data-dismiss="modal">
                                   <span>
                                     Submit
                                     <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
@@ -593,7 +595,7 @@
                 </div>
         
                 <div class="container-contact100-form-btn">
-                  <button class="contact100-form-btn">
+                  <button class="contact100-form-btn" data-dismiss="modal">
                     <span>
                       Submit
                       <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
