@@ -23,6 +23,7 @@ body{
   padding:.5em;
   max-width: 100%;
   max-height: 100%; 
+  border-radius: .5em;
   border: 0.1em solid rgba(128, 128, 128, 0.281);
   box-shadow: 5px 5px 8px grey;
   background-color: white;
@@ -32,7 +33,10 @@ img{
     max-height: 100%; 
     border-radius: 25%;
 }
-
+.basic_info{
+  text-decoration: none;
+  min-height: 5em;;
+}
 .basic_info li a {
   position: relative;
   padding-left: 40px;
@@ -53,13 +57,15 @@ img{
   max-width: 90%;
 }
 
-
+.workExperienceContainer{
+  width:80%;
+}
 
 .job-area.offwhite {
-  background: #f9f9ff; }
+  background: #2e2e3096; }
   
 .single-job {
-  background-color: #f9f9ff;
+  background-color: rgba(245, 240, 240, 0.774);
   padding: 40px 30px;
   border-radius: 10px;
   margin-bottom: 30px;
