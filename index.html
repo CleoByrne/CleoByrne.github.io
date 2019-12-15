@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" type ="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            position: relative; 
+        }
+        #profile {padding-top:50px;height:auto;color: black; }
+        #aboutMe {padding-top:50px;height:auto;color: black; }
+        #education {padding-top:50px;height:auto;color: black; }
+        #projects {padding-top:50px;height:auto;color: black; }
+        #workExperience {padding-top:50px;height:auto;color: black;}
+        #interests {padding-top:50px;height:auto;color: black;}
+        #contactMe {padding-top:50px;height:auto;color: black;}
+    </style>
+</head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+              </button>
+              <a class="navbar-brand" href="#">Cleo Byrne</a>
+            </div>
+            <div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li><a href="#aboutMe">About Me</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#projects">Projects</a></li>
+                  <li><a href="#workExperience">Work Experience</a></li>
+                  <li><a href="#interests">Interests and Achievments</a></li>                  
+                  <li><a href="#contactMe">Contact Me</a></li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>    
+        
+        <div id="profile" class="container-fluid">
+          
+          <div class="card mb-3" >
+            <div class="cardRow row">
+              <div class="profileImg col-md-6">
+                <img src="Cleo profile.jpg" class="card-img" alt="Cleo Byrne">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h2 class="card-title">Cleo Byrne</h2>
+                  <h5 class="card-text"></h5>
+                  <p class="card-text">
+                    <ul class="list basic_info">
+                      <li><a href="#"><i class="lnr lnr-calendar-full"></i> 31st December, 1992</a></li>
+                      <li><a href="#"><i class="lnr lnr-phone-handset"></i> 44 (012) 6954 783</a></li>
+                      <li><a href="#"><i class="lnr lnr-envelope"></i> businessplan@donald</a></li>
+                      <li><a href="#"><i class="lnr lnr-home"></i> Santa monica bullevard</a></li>
+                    </ul>
+                    <ul class="list personal_social">
+                      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="aboutMe" class="container-fluid">
+          <div class="aboutMeContainer">
+            <h1>About Me</h1>
+
+            <p>
+              I am currently a student in my final year of college studying Computer Science with Software Development, in the Technological University Dublin. Throughout both college and work experience I have developed good communication and teamwork skills. I enjoy working as both part of a team and individually. I have experience working in an agile work enviorment which has allowed me to develop good  time and project management skills. 
+              <h3>IT Skills</h3>
+              <ul>
+                  <li>Java Developer with three years of college experience.</li>
+                  <li>Can design and create database schemas.</li>
+                  <li>Can analyse and design systems using UML.</li>
+                  <li>Configure a router using Cisco IOS command set.</li>
+                  <li>Capable of designing and developing websites using HTML5, CSS3, JavaScript, Bootstrap 4, SQL and Visual Studio Code.</li>
+                  <li>Design build and troubleshoot a network using routers and hubs using related tool.</li>
+                  <li>Can write SQL queries to intermediate level using Oracle 11G.</li>
+                  <li>Have created projects with Angular 7, serverless, node and aws</li>
+                  <li>Familiar with Vue and React.</li>
+                </ul>
+            </p>
+            
+          </div>
+        </div>
+        <div id="education" class="container-fluid">
+          <div class="educationContainer">
+            <h1>Education</h1>
+            <p>College - Technological University Dublin - Tallaght Campus</p>
+            <ul class="nav nav-pills">
+              <li><a data-toggle="pill" style="border-radius: 3em;" href="#3rdYear">3rd Year GPA 3.42</a></li>
+              <li><a data-toggle="pill" style="border-radius: 3em;" href="#2ndYear">2nd Year GPA 3.63</a></li>
+              <li><a data-toggle="pill" style="border-radius: 3em;" href="#1stYear">1st Year GPA 3.40</a></li>
+            </ul>
+            
+            <div class="tab-content">
+              <div id="3rdYear" class="tab-pane fade in active">
+                <table class="table">  
+                  <thead>  
+                      <tr>  
+                          <th style="width:10%">Module</td>  
+                          <th style="width:10%">Grade</td>  
+                      </tr>  
+                  </thead>  
+                    
+                  <tbody>  
+                      <tr>  
+                          <td>Data Structures & Algorithms</td>  
+                          <td>A</td>  
+                      </tr>  
+                      <tr>  
+                          <td>Data Analysis</td>  
+                          <td>A</td>  
+                      </tr>  
+                      <tr>  
+                          <td>Operating Systems</td>  
+                          <td>B+</td>  
+                      </tr>
+                      <tr>  
+                          <td>Big Data Technologies</td>  
+                          <td>B+</td>  
+                      </tr>
+                      <tr>  
+                          <td>Server-side Web Development</td>  
+                          <td>B</td>  
+                      </tr>
+                      <tr>  
+                        <td>Cloud Service & Distributed Computing</td>  
+                        <td>C+</td>  
+                    </tr>  
+            </tbody>  
+              </table>  
+          </div>  
+              <div id="2ndYear" class="tab-pane fade">
+                <table class="table">  
+                  <thead>  
+                      <tr>  
+                          <th style="width:10%">Module</td>  
+                          <th style="width:10%">Grade</td>  
+                      </tr>  
+                  </thead>  
+                    
+                  <tbody>  
+                      <tr>  
+                          <td>Discrete Mathematics 2</td>  
+                          <td>A</td>  
+                      </tr>  
+                      <tr>  
+                          <td>Software Development 3</td>  
+                          <td>A</td>  
+                      </tr>  
+                      <tr>  
+                        <td>Networking 2</td>  
+                        <td>A</td>  
+                    </tr>  
+                    <tr>  
+                      <td>Project</td>  
+                      <td>A</td>  
+                  </tr>
+                  <tr>  
+                      <td>Software Development 4</td>  
+                      <td>A</td>  
+                  </tr>  
+                  <tr>  
+                      <td>Database Design & Programming</td>  
+                      <td>B+</td>  
+                  </tr>  
+                  <tr>  
+                    <td>Networking 1</td>  
+                    <td>B+</td>  
+                </tr>  
+                <tr>  
+                  <td>Web Design and Development</td>  
+                  <td>B+</td>  
+              </tr>   
+              <tr>  
+                  <td>Information Security</td>  
+                  <td>B+</td>  
+              </tr>
+              <tr>  
+                  <td>Management Science</td>  
+                  <td>B+</td>  
+              </tr>
+              <tr>  
+                  <td>Software Quality Assurance and Testing</td>  
+                  <td>C+</td>  
+              </tr>
+            </tbody>  
+              </table>            </div>
+              <div id="1stYear" class="tab-pane fade">
+                <table class="table">  
+                  <thead>  
+                      <tr>  
+                          <th style="width:10%">Module</td>  
+                          <th style="width:10%">Grade</td>  
+                      </tr>  
+                  </thead>  
+                    
+                  <tbody>  
+                      <tr>  
+                          <td>Software Development 2 </td>  
+                          <td>A</td>  
+                      </tr>  
+                      <tr>  
+                          <td>Statistics</td>  
+                          <td>A</td>  
+                      </tr>  
+                      <tr>  
+                        <td>Object Orientated Systems Analysis</td>  
+                        <td>B+</td>  
+                    </tr>  
+                    <tr>  
+                      <td>Operating Systems Fundementals</td>  
+                      <td>B+</td>  
+                  </tr>     <tr>  
+                    <td>Database Fundementals</td>  
+                    <td>B+</td>  
+                </tr>  
+                <tr>  
+                    <td>Fundementals of Interface and Web Design</td>  
+                    <td>B+</td>  
+                </tr>  
+                <tr>  
+                    <td>Business Information Systems</td>  
+                    <td>B+</td>  
+                </tr>  
+                          <tr>  
+                            <td>Learning To Learn</td>  
+                            <td>B</td>  
+                        </tr>  
+                        <tr>  
+                          <td>Social Media Communications</td>  
+                          <td>B</td>  
+                      </tr>     <tr>  
+                        <td>Discrete Mathematics 1</td>  
+                        <td>B</td>  
+                    </tr> 
+                    <tr>  
+                        <td>Computer architecture</td>  
+                        <td>B-</td>  
+                    </tr>  
+                  
+            </tbody>  
+              </table>  
+              </div>
+      </div>
+  </div>
+        </div>
+        <div id="projects" class="container-fluid">
+          <h1>Projects</h1>  
+        </div>
+        <div id="workExperience" class="container-fluid">
+          <section class="job-area section-gap-top section-gap-bottom-90">
+            <div class="container">
+              <div class="row d-flex">
+                <div class="col-lg-12">
+                  <div class="section-title">
+                    <h1>Work Experience</h1>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="single-job">
+                    <div class="top-sec d-flex justify-content-between">
+                      <div class="top-left">
+                        <h4>Fidelity Investments</h4>
+                        <h6>Interns Software Developer</h6>
+                        <p>One Waterside, Citywest Business Campus, Kingswood Ave, Dublin 24</p>
+                      </div>
+                      <div class="top-right">
+                        <a href="#" class="primary-btn" data-text="Jan '19 to Aug '19">
+                          <span>J</span><span>a</span><span>n</span>
+                          <span>'</span><span>1</span><span>9</span>
+                          <span>t</span><span>o</span>
+                          <span>A</span><span>u</span><span>g</span><span>'</span><span>1</span><span>9</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="bottom-sec wow fadeIn" data-wow-duration="2s">
+                      <ul>
+                        <li>Worked on and designed applications with different technologies such s Angular, vue and react.</li>
+                        <li>Worked in an agile working enviorment where</li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-lg-6">
+                  <div class="single-job">
+                    <div class="top-sec d-flex justify-content-between">
+                      <div class="top-left">
+                        <h4>Senior Visualiser</h4>
+                        <p>Old Bird IT, New Yorkt</p>
+                      </div>
+                      <div class="top-right">
+                        <a href="#" class="primary-btn" data-text="Jul '15 to Present">
+                          <span>J</span><span>u</span><span>l</span>
+                          <span>'</span><span>1</span><span>5</span>
+                          <span>t</span><span>o</span>
+                          <span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s">
+                      All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
+                      that there are millions of people out of the field there.
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-lg-6">
+                  <div class="single-job">
+                    <div class="top-sec d-flex justify-content-between">
+                      <div class="top-left">
+                        <h4>Junior Visualiser</h4>
+                        <p>Old Bird IT, New Yorkt</p>
+                      </div>
+                      <div class="top-right">
+                        <a href="#" class="primary-btn" data-text="Jul '15 to Present">
+                          <span>J</span><span>u</span><span>l</span>
+                          <span>'</span><span>1</span><span>5</span>
+                          <span>t</span><span>o</span>
+                          <span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.4s">
+                      All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
+                      that there are millions of people out of the field there.
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="col-lg-6">
+                  <div class="single-job">
+                    <div class="top-sec d-flex justify-content-between">
+                      <div class="top-left">
+                        <h4>Intern Designer</h4>
+                        <p>Old Bird IT, New Yorkt</p>
+                      </div>
+                      <div class="top-right">
+                        <a href="#" class="primary-btn" data-text="Jul '15 to Present">
+                          <span>J</span><span>u</span><span>l</span>
+                          <span>'</span><span>1</span><span>5</span>
+                          <span>t</span><span>o</span>
+                          <span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="bottom-sec wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
+                      All users on MySpace will know that there are millions of people out there. Every day besides. All users on My will know
+                      that there are millions of people out of the field there.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div id="interests" class="container-fluid">
+          <div class=interestContainer>
+            
+          <h3>Interests and Achievements</h3>
+          
+        </div>
+        </div>
+
+        <div id="contactMe" class="container-fluid">
+          <div class="contactContainer">
+              <h1>Contact Me</h1>
+              <form class="contact-form ">
+                
+        
+                <div class="wrap-input100 rs1-wrap-input100 validate-input " data-validate="Name is required">
+                  <span class="label-input100">Your Name</span>
+                  <input class="input100" type="text" name="name" placeholder="Enter your name">
+                  <span class="focus-input100"></span>
+                </div>
+        
+                <div class="wrap-input100 rs1-wrap-input100 validate-input " data-validate = "Valid email is required: ex@abc.xyz">
+                  <span class="label-input100">Email</span>
+                  <input class="input100" type="text" name="email" placeholder="Enter your email addess">
+                  <span class="focus-input100"></span>
+                </div>
+        
+                <div class="wrap-input100 validate-input" data-validate = "Message is required"style="margin-bottom: 2em;">
+                  <span class="label-input100">Message</span>
+                  <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+                  <span class="focus-input100"></span>
+                </div>
+        
+                <div class="container-contact100-form-btn">
+                  <button class="contact100-form-btn">
+                    <span>
+                      Submit
+                      <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+              </form>
+        
+              <span class="contact100-more">
+                For any question contact our 24/7 call center: <span class="contact100-more-highlight">+001 345 6889</span>
+              </span>
+            </div>
+          </div>
+
+
+        </div>  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+</html>
